@@ -144,6 +144,14 @@ a problem instance. The format of the configuration files is derived from the
     ]
 }    
 ```
+## Valencia interurban DR service
+The folder `data` contains the necessary files for the solver to load and solve scenarios created departing from the public interurban bus infrastructure of the Comunitat Valenciana, Spain. Inside it, you may find:
+- `GTFS_CV`: Interurban public bus service of the Comunitat Valenciana in GTFS format. Used as a base to create demand-responsive problem instances.
+- `input`: Stops file `filtered_stops.json` and Routes file `precomputed_routes.json`, necessary for the demand-responsive scheduling algorithm. **NOTE**: The uploaded Routes file does not contain all the necessary precomputed routes because of size issues. If you wish to obtain the actual file, necessary to solve problem instances, email the repository's owner. 
+- `instances`: Demand responsive problem instances of a service orchestrated departing from the data in `GTFS-CV`. Each problm instance is defined by its number of requests and the fleet of vehicles. Instance names follow this pattern: 
+    - `<requests>`r-500m-60_360-1_5p+`<vehicles>`-8cap-0_420.json
+- `output`: Demand-responsive solver solutions of every problem instance. It also contains `.csv` files representing results grouped in tables. 
 
 
 ## Instance solving & Request modification 
+The implementation of instance loading and solving functionalities can be found inside folder `main`. The jupyter notebook `main-notebook.ipynb`is prepared for any user to run and solve all instances in `data/instances`.  
