@@ -1,4 +1,3 @@
-import argparse
 import json
 import os
 
@@ -158,10 +157,10 @@ def run_all_experiments(max_experiments=None):
         output = sche.simulation_stats()
 
         # Save output file
-        with open(OUTPUT_PATH + "out+" + config_file, "w") as outfile:
-            json.dump(output, outfile, indent=4)
-        print("Outfile saved: out+" + config_file)
-        print()
+        # with open(OUTPUT_PATH + "out+" + config_file, "w") as outfile:
+        #     json.dump(output, outfile, indent=4)
+        # print("Outfile saved: out+" + config_file)
+        # print()
 
 
 def main(arguments):
@@ -216,14 +215,3 @@ def debug_main(arguments):
 
 if __name__ == '__main__':
     run_all_experiments()
-
-    # parser = argparse.ArgumentParser()
-    #
-    # # Add arguments
-    # parser.add_argument("config_file", type=str, help="config_file")
-    #
-    # # Parse the arguments
-    # args = parser.parse_args()
-    #
-    # # Call the main function with the parsed arguments
-    # main(args)

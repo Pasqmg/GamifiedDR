@@ -2,47 +2,18 @@
 Global variable definition.
 Adjust the values of these variables to run different experiments and define demand time restrictions.
 """
-# GUIMABUS
-# # Input/Output global variables
-# INPUT_PATH = "../data/input/guimabus/"
-# OUTPUT_PATH = "data/output/guimabus/wait-15-travel_factor-1,5/"
-# # Intermediate path may be necessary depending on the data folder structure
-# INTERMEDIATE_CONFIG_PATH = "../data/configs/guimabus/customer/wait-15-travel_factor-1,5/"
-#
-# # Path to folder containing problem configuration files
-# CONFIG_PATH = "../data/configs/guimabus/win-15-travel_factor-1,5/"
-# # Adjust to routes file name
-# ROUTES_FILE = INPUT_PATH + 'new_final_routes.json'
-# # Adjust to stops file name
-# STOPS_FILE = INPUT_PATH + 'final-stops.json'
+import os
 
-# COMSIS
 # Input/Output global variables
-# INPUT_PATH = "../data/input/COMSIS/"
-# OUTPUT_PATH = "data/output/"
-# # Intermediate path may be necessary depending on the data folder structure
-# INTERMEDIATE_CONFIG_PATH = "../data/configs/COMSIS/8v-8cap/"
-#
-# # Path to folder containing problem configuration files
-# CONFIG_PATH = "../data/configs/COMSIS/8v-8cap/"
-# # Adjust to routes file name
-# ROUTES_FILE = INPUT_PATH + 'routes_500m.json'
-# # Adjust to stops file name
-# STOPS_FILE = INPUT_PATH + 'final_stops_500m_updated.json'
+INPUT_PATH = "../data/input/"
+OUTPUT_PATH = "../data/output/"
 
-# ADCAIJ
-# Input/Output global variables
-INPUT_PATH = "../data/input/ADCAIJ/"
-OUTPUT_PATH = "../data/output/ADCAIJ/"
-# Intermediate path may be necessary depending on the data folder structure
-INTERMEDIATE_CONFIG_PATH = "../data/configs/ADCAIJ/intermediate/"
-
-# Path to folder containing problem configuration files
-CONFIG_PATH = "../data/configs/ADCAIJ/"
+# Path to folder containing problem instance files
+CONFIG_PATH = "../data/instances/"
 # Adjust to routes file name
-ROUTES_FILE = INPUT_PATH + 'routes_in_borders3.json'
+ROUTES_FILE = os.path.join(INPUT_PATH, 'precomputed_routes.json')
 # Adjust to stops file name
-STOPS_FILE = INPUT_PATH + 'stops_in_borders3.json'
+STOPS_FILE = os.path.join(INPUT_PATH, 'filtered_stops.json')
 
 # Demand-generation global variables, which affect the time window computation of each Stop within a Request
 # OSRM petition url

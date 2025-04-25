@@ -146,18 +146,4 @@ a problem instance. The format of the configuration files is derived from the
 ```
 
 
-## Problem instance generation
-Problem instances are generated departing from a 
-
-### Route calculation
-`routeCalculator.py`
-
-### Vehicle generator
-`vehicleGenerator.py`
-
-### Customer generator
-`customerGenerator.py`
-
-### Run experiments
-
-## Solving a problem instance
+## Instance solving & Request modification 

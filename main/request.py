@@ -1,4 +1,4 @@
-from auxiliary.utils import get_service_time
+from main.utils import get_service_time
 from main.globals import MAXIMUM_WAITING_TIME_MINUTES, TRAVEL_FACTOR
 from stop import Stop
 
