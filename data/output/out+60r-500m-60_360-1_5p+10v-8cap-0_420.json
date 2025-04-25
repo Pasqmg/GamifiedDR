@@ -1,0 +1,559 @@
+{
+    "total_requests": 60,
+    "scheduled_requests": 60,
+    "scheduled_percent": 100.0,
+    "rejected_requests": 0,
+    "rejected_percent": 0.0,
+    "total_cost": 729.3195999999999,
+    "total_kms": 729.3195999999999,
+    "num_vehicles": 10,
+    "vehicle_stats": {
+        "veh_01_925113110225": {
+            "num_stops": 34,
+            "begin_time": 61.79,
+            "end_time": 370.03999999999996,
+            "total_time": 420,
+            "busy_time": 302.51,
+            "wait_time": 67.52999999999994,
+            "busy_percent": 72.02619047619048,
+            "wait_percent": 16.078571428571415,
+            "usage_percent": 88.1047619047619,
+            "itinerary_kms": 190.5,
+            "cost": 190.5,
+            "total_requests": 16,
+            "total_wait": 147.0233333333334,
+            "avg_wait": 9.188958333333337,
+            "std_wait": 6.965240904618801,
+            "customer_stats": {
+                "request_01_5": {
+                    "wait": 0,
+                    "on-board": 7.584999999999994,
+                    "trip_kms": 1.2524000000000002,
+                    "min_kms": 1.2524000000000002
+                },
+                "request_04_1": {
+                    "wait": 10.208333333333329,
+                    "on-board": 28.22,
+                    "trip_kms": 20.673699999999997,
+                    "min_kms": 10.7949
+                },
+                "request_08_1": {
+                    "wait": 13.418333333333322,
+                    "on-board": 32.07500000000002,
+                    "trip_kms": 18.533899999999996,
+                    "min_kms": 13.9025
+                },
+                "request_10_1": {
+                    "wait": 14.271666666666661,
+                    "on-board": 36.09000000000002,
+                    "trip_kms": 20.483099999999997,
+                    "min_kms": 12.419
+                },
+                "request_14_2": {
+                    "wait": 0,
+                    "on-board": 34.98666666666668,
+                    "trip_kms": 20.6834,
+                    "min_kms": 11.421100000000001
+                },
+                "request_16_1": {
+                    "wait": 5.600000000000023,
+                    "on-board": 46.41499999999999,
+                    "trip_kms": 28.4555,
+                    "min_kms": 8.5196
+                },
+                "request_19_2": {
+                    "wait": 1.865000000000009,
+                    "on-board": 13.336666666666673,
+                    "trip_kms": 10.527700000000001,
+                    "min_kms": 10.527700000000001
+                },
+                "request_22_4": {
+                    "wait": 5.7616666666666845,
+                    "on-board": 23.958333333333343,
+                    "trip_kms": 14.1963,
+                    "min_kms": 6.8999
+                },
+                "request_28_2": {
+                    "wait": 16.308333333333366,
+                    "on-board": 46.438333333333304,
+                    "trip_kms": 29.540399999999998,
+                    "min_kms": 15.7601
+                },
+                "request_31_1": {
+                    "wait": 8.243333333333368,
+                    "on-board": 9.721666666666664,
+                    "trip_kms": 6.6518999999999995,
+                    "min_kms": 6.6518999999999995
+                },
+                "request_33_1": {
+                    "wait": 13.925000000000011,
+                    "on-board": 7.8916666666666515,
+                    "trip_kms": 4.6171,
+                    "min_kms": 4.3649
+                },
+                "request_34_1": {
+                    "wait": 18.305000000000007,
+                    "on-board": 24.714999999999975,
+                    "trip_kms": 16.4052,
+                    "min_kms": 8.1986
+                },
+                "request_44_1": {
+                    "wait": 17.579999999999984,
+                    "on-board": 12.093333333333362,
+                    "trip_kms": 6.093500000000001,
+                    "min_kms": 5.065600000000001
+                },
+                "request_51_2": {
+                    "wait": 1.6200000000000045,
+                    "on-board": 16.779999999999973,
+                    "trip_kms": 7.548,
+                    "min_kms": 7.2855
+                },
+                "request_54_1": {
+                    "wait": 0,
+                    "on-board": 24.50833333333327,
+                    "trip_kms": 18.0553,
+                    "min_kms": 10.6129
+                },
+                "request_55_1": {
+                    "wait": 19.91666666666663,
+                    "on-board": 18.508333333333326,
+                    "trip_kms": 14.939,
+                    "min_kms": 16.3359
+                }
+            }
+        },
+        "veh_02_925113110225": {
+            "num_stops": 28,
+            "begin_time": 69.34166666666667,
+            "end_time": 371.98,
+            "total_time": 420,
+            "busy_time": 227.58333333333334,
+            "wait_time": 144.39666666666662,
+            "busy_percent": 54.186507936507944,
+            "wait_percent": 34.38015873015872,
+            "usage_percent": 88.56666666666666,
+            "itinerary_kms": 134.10939999999997,
+            "cost": 134.10939999999997,
+            "total_requests": 13,
+            "total_wait": 59.62000000000003,
+            "avg_wait": 4.586153846153849,
+            "std_wait": 5.350282937826076,
+            "customer_stats": {
+                "request_02_3": {
+                    "wait": 0,
+                    "on-board": 30.173333333333332,
+                    "trip_kms": 18.2434,
+                    "min_kms": 11.6479
+                },
+                "request_03_2": {
+                    "wait": 14.549999999999997,
+                    "on-board": 29.111666666666665,
+                    "trip_kms": 19.7219,
+                    "min_kms": 10.471
+                },
+                "request_12_1": {
+                    "wait": 10.433333333333323,
+                    "on-board": 8.10666666666667,
+                    "trip_kms": 5.7982,
+                    "min_kms": 5.7982
+                },
+                "request_24_1": {
+                    "wait": 0,
+                    "on-board": 32.25,
+                    "trip_kms": 14.970500000000001,
+                    "min_kms": 7.6674
+                },
+                "request_26_5": {
+                    "wait": 4.431666666666672,
+                    "on-board": 14.713333333333338,
+                    "trip_kms": 6.204400000000001,
+                    "min_kms": 5.2443
+                },
+                "request_29_1": {
+                    "wait": 1.836666666666673,
+                    "on-board": 45.98833333333337,
+                    "trip_kms": 26.644399999999997,
+                    "min_kms": 9.332600000000001
+                },
+                "request_32_1": {
+                    "wait": 14.678333333333342,
+                    "on-board": 25.43166666666673,
+                    "trip_kms": 16.033,
+                    "min_kms": 12.2724
+                },
+                "request_35_1": {
+                    "wait": 1.2016666666666822,
+                    "on-board": 40.486666666666736,
+                    "trip_kms": 26.2589,
+                    "min_kms": 8.3017
+                },
+                "request_47_4": {
+                    "wait": 0.5850000000000932,
+                    "on-board": 40.35666666666651,
+                    "trip_kms": 23.5175,
+                    "min_kms": 9.4148
+                },
+                "request_50_1": {
+                    "wait": 0,
+                    "on-board": 20.60499999999996,
+                    "trip_kms": 13.531699999999999,
+                    "min_kms": 11.323
+                },
+                "request_48_1": {
+                    "wait": 8.58833333333331,
+                    "on-board": 12.083333333333314,
+                    "trip_kms": 9.422799999999999,
+                    "min_kms": 9.422799999999999
+                },
+                "request_57_1": {
+                    "wait": 3.314999999999941,
+                    "on-board": 13.29333333333335,
+                    "trip_kms": 9.7661,
+                    "min_kms": 9.7661
+                },
+                "request_60_2": {
+                    "wait": 0,
+                    "on-board": 6.689999999999998,
+                    "trip_kms": 3.1957,
+                    "min_kms": 3.1957
+                }
+            }
+        },
+        "veh_03_925611130111": {
+            "num_stops": 18,
+            "begin_time": 77.28333333333333,
+            "end_time": 339.9916666666667,
+            "total_time": 420,
+            "busy_time": 170.12499999999997,
+            "wait_time": 169.8666666666667,
+            "busy_percent": 40.50595238095237,
+            "wait_percent": 40.44444444444446,
+            "usage_percent": 80.95039682539684,
+            "itinerary_kms": 98.26969999999999,
+            "cost": 98.26969999999999,
+            "total_requests": 8,
+            "total_wait": 48.15666666666675,
+            "avg_wait": 6.019583333333344,
+            "std_wait": 7.082423164563418,
+            "customer_stats": {
+                "request_09_1": {
+                    "wait": 0,
+                    "on-board": 9.629999999999995,
+                    "trip_kms": 6.4948999999999995,
+                    "min_kms": 6.4948999999999995
+                },
+                "request_17_4": {
+                    "wait": 0,
+                    "on-board": 16.01333333333332,
+                    "trip_kms": 6.1621999999999995,
+                    "min_kms": 4.8046999999999995
+                },
+                "request_15_1": {
+                    "wait": 13.99666666666667,
+                    "on-board": 2.384999999999991,
+                    "trip_kms": 0.5064,
+                    "min_kms": 0.5064
+                },
+                "request_30_1": {
+                    "wait": 0,
+                    "on-board": 14.074999999999989,
+                    "trip_kms": 10.665899999999999,
+                    "min_kms": 10.665899999999999
+                },
+                "request_40_1": {
+                    "wait": 0,
+                    "on-board": 18.210000000000036,
+                    "trip_kms": 11.1675,
+                    "min_kms": 8.3784
+                },
+                "request_37_2": {
+                    "wait": 19.426666666666677,
+                    "on-board": 19.058333333333337,
+                    "trip_kms": 8.610800000000001,
+                    "min_kms": 8.2281
+                },
+                "request_43_1": {
+                    "wait": 9.5266666666667,
+                    "on-board": 32.79666666666668,
+                    "trip_kms": 17.3507,
+                    "min_kms": 6.885
+                },
+                "request_49_5": {
+                    "wait": 5.206666666666706,
+                    "on-board": 24.273333333333312,
+                    "trip_kms": 12.159699999999999,
+                    "min_kms": 11.4722
+                }
+            }
+        },
+        "veh_04_925611130111": {
+            "num_stops": 2,
+            "begin_time": 0.0,
+            "end_time": 0,
+            "total_time": 420,
+            "busy_time": 0.0,
+            "wait_time": 0.0,
+            "busy_percent": 0.0,
+            "wait_percent": 0.0,
+            "usage_percent": 0.0,
+            "itinerary_kms": 0.0,
+            "cost": 0.0,
+            "total_requests": 0,
+            "total_wait": 0,
+            "avg_wait": 0,
+            "std_wait": 0,
+            "customer_stats": {}
+        },
+        "veh_05_5403010204": {
+            "num_stops": 2,
+            "begin_time": 0.0,
+            "end_time": 0,
+            "total_time": 420,
+            "busy_time": 0.0,
+            "wait_time": 0.0,
+            "busy_percent": 0.0,
+            "wait_percent": 0.0,
+            "usage_percent": 0.0,
+            "itinerary_kms": 0.0,
+            "cost": 0.0,
+            "total_requests": 0,
+            "total_wait": 0,
+            "avg_wait": 0,
+            "std_wait": 0,
+            "customer_stats": {}
+        },
+        "veh_06_5403010204": {
+            "num_stops": 2,
+            "begin_time": 0.0,
+            "end_time": 0,
+            "total_time": 420,
+            "busy_time": 0.0,
+            "wait_time": 0.0,
+            "busy_percent": 0.0,
+            "wait_percent": 0.0,
+            "usage_percent": 0.0,
+            "itinerary_kms": 0.0,
+            "cost": 0.0,
+            "total_requests": 0,
+            "total_wait": 0,
+            "avg_wait": 0,
+            "std_wait": 0,
+            "customer_stats": {}
+        },
+        "veh_07_5252010101": {
+            "num_stops": 24,
+            "begin_time": 81.02,
+            "end_time": 377.0833333333333,
+            "total_time": 420,
+            "busy_time": 186.71166666666664,
+            "wait_time": 190.37166666666656,
+            "busy_percent": 44.45515873015872,
+            "wait_percent": 45.326587301587274,
+            "usage_percent": 89.781746031746,
+            "itinerary_kms": 120.34669999999998,
+            "cost": 120.34669999999998,
+            "total_requests": 11,
+            "total_wait": 99.37000000000023,
+            "avg_wait": 9.033636363636385,
+            "std_wait": 6.886226327930708,
+            "customer_stats": {
+                "request_06_1": {
+                    "wait": 0,
+                    "on-board": 16.21166666666666,
+                    "trip_kms": 9.8538,
+                    "min_kms": 9.777899999999999
+                },
+                "request_05_1": {
+                    "wait": 8.221666666666664,
+                    "on-board": 19.388333333333335,
+                    "trip_kms": 9.0915,
+                    "min_kms": 3.6969000000000003
+                },
+                "request_07_3": {
+                    "wait": 16.799999999999997,
+                    "on-board": 20.911666666666676,
+                    "trip_kms": 11.3072,
+                    "min_kms": 6.9165
+                },
+                "request_11_1": {
+                    "wait": 3.575000000000003,
+                    "on-board": 28.256666666666675,
+                    "trip_kms": 17.737499999999997,
+                    "min_kms": 10.6009
+                },
+                "request_13_1": {
+                    "wait": 15.831666666666678,
+                    "on-board": 18.593333333333334,
+                    "trip_kms": 13.2991,
+                    "min_kms": 10.4365
+                },
+                "request_36_1": {
+                    "wait": 0,
+                    "on-board": 37.28500000000008,
+                    "trip_kms": 22.0403,
+                    "min_kms": 12.107899999999999
+                },
+                "request_38_1": {
+                    "wait": 9.358333333333348,
+                    "on-board": 12.016666666666708,
+                    "trip_kms": 4.3079,
+                    "min_kms": 3.7096
+                },
+                "request_39_1": {
+                    "wait": 11.336666666666702,
+                    "on-board": 44.70166666666671,
+                    "trip_kms": 30.6981,
+                    "min_kms": 13.1142
+                },
+                "request_42_1": {
+                    "wait": 15.796666666666738,
+                    "on-board": 9.41166666666669,
+                    "trip_kms": 5.527200000000001,
+                    "min_kms": 5.5272
+                },
+                "request_53_3": {
+                    "wait": 18.450000000000102,
+                    "on-board": 23.508333333333212,
+                    "trip_kms": 9.5809,
+                    "min_kms": 8.5398
+                },
+                "request_59_1": {
+                    "wait": 0,
+                    "on-board": 27.44999999999999,
+                    "trip_kms": 19.352600000000002,
+                    "min_kms": 9.48
+                }
+            }
+        },
+        "veh_08_5252010101": {
+            "num_stops": 10,
+            "begin_time": 250.82166666666666,
+            "end_time": 362.825,
+            "total_time": 420,
+            "busy_time": 112.00333333333333,
+            "wait_time": 250.82166666666666,
+            "busy_percent": 26.667460317460318,
+            "wait_percent": 59.71944444444445,
+            "usage_percent": 86.38690476190476,
+            "itinerary_kms": 81.4656,
+            "cost": 81.4656,
+            "total_requests": 4,
+            "total_wait": 19.799999999999898,
+            "avg_wait": 4.949999999999974,
+            "std_wait": 4.925302162191548,
+            "customer_stats": {
+                "request_41_1": {
+                    "wait": 0,
+                    "on-board": 26.494999999999948,
+                    "trip_kms": 17.9599,
+                    "min_kms": 14.6552
+                },
+                "request_46_4": {
+                    "wait": 0.839999999999975,
+                    "on-board": 46.031666666666695,
+                    "trip_kms": 30.148799999999998,
+                    "min_kms": 11.5187
+                },
+                "request_45_1": {
+                    "wait": 12.181666666666615,
+                    "on-board": 35.3366666666667,
+                    "trip_kms": 26.407899999999998,
+                    "min_kms": 10.238100000000001
+                },
+                "request_52_2": {
+                    "wait": 6.778333333333308,
+                    "on-board": 33.22833333333335,
+                    "trip_kms": 20.7271,
+                    "min_kms": 16.201
+                }
+            }
+        },
+        "veh_09_5254010218": {
+            "num_stops": 12,
+            "begin_time": 154.64333333333335,
+            "end_time": 261.06333333333333,
+            "total_time": 420,
+            "busy_time": 106.41999999999999,
+            "wait_time": 154.64333333333335,
+            "busy_percent": 25.33809523809524,
+            "wait_percent": 36.81984126984128,
+            "usage_percent": 62.157936507936505,
+            "itinerary_kms": 54.8206,
+            "cost": 54.8206,
+            "total_requests": 5,
+            "total_wait": 45.06666666666666,
+            "avg_wait": 9.013333333333332,
+            "std_wait": 6.41084125178245,
+            "customer_stats": {
+                "request_18_1": {
+                    "wait": 0,
+                    "on-board": 8.778333333333336,
+                    "trip_kms": 5.9608,
+                    "min_kms": 5.9608
+                },
+                "request_21_1": {
+                    "wait": 8.248333333333335,
+                    "on-board": 10.156666666666666,
+                    "trip_kms": 5.4519,
+                    "min_kms": 5.788600000000001
+                },
+                "request_20_1": {
+                    "wait": 18.126666666666665,
+                    "on-board": 9.560000000000002,
+                    "trip_kms": 3.5636,
+                    "min_kms": 3.5635
+                },
+                "request_23_4": {
+                    "wait": 4.8516666666666595,
+                    "on-board": 36.113333333333344,
+                    "trip_kms": 20.399,
+                    "min_kms": 6.6605
+                },
+                "request_25_4": {
+                    "wait": 13.840000000000003,
+                    "on-board": 34.22333333333333,
+                    "trip_kms": 16.759,
+                    "min_kms": 15.789
+                }
+            }
+        },
+        "veh_10_5254010218": {
+            "num_stops": 8,
+            "begin_time": 200.99666666666667,
+            "end_time": 377.45,
+            "total_time": 420,
+            "busy_time": 74.69333333333333,
+            "wait_time": 302.7566666666666,
+            "busy_percent": 17.78412698412698,
+            "wait_percent": 72.08492063492062,
+            "usage_percent": 89.8690476190476,
+            "itinerary_kms": 49.80760000000001,
+            "cost": 49.80760000000001,
+            "total_requests": 3,
+            "total_wait": 18.805000000000007,
+            "avg_wait": 6.268333333333335,
+            "std_wait": 8.864762013475355,
+            "customer_stats": {
+                "request_27_1": {
+                    "wait": 0,
+                    "on-board": 7.646666666666675,
+                    "trip_kms": 6.4208,
+                    "min_kms": 6.4208
+                },
+                "request_58_3": {
+                    "wait": 0,
+                    "on-board": 22.53000000000003,
+                    "trip_kms": 11.0237,
+                    "min_kms": 4.6256
+                },
+                "request_56_1": {
+                    "wait": 18.805000000000007,
+                    "on-board": 21.193333333333328,
+                    "trip_kms": 15.647499999999997,
+                    "min_kms": 11.1745
+                }
+            }
+        }
+    }
+}
